@@ -1,0 +1,6 @@
+#FFFFFF
+#FF3421
+#00ff00
+232323
+f#fddee
+#fd2

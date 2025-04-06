@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "123f0161-f2b4-4bf8-9ad9-ed76c017494c",
+		"name": "PatientAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36499534"
+	},
+	"item": [
+		{
+			"name": "Add Patient",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n    \"family\": \"Иванов\",\r\n    \"given\": [\"Иван\", \"Иванович\"],\r\n    \"gender\": \"male\",\r\n    \"birthDate\": \"2000-01-01\",\r\n    \"active\": true\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7054/api/Patients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7054",
+					"path": [
+						"api",
+						"Patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Patient",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Patient by ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Patient",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Search Patients by BirthDate",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

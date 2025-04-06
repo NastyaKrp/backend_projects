@@ -1,0 +1,14 @@
+services:
+  mongodb:
+    container_name: mongo
+    image: mongo:8.0.5
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: nastya
+      MONGO_INITDB_ROOT_PASSWORD: nastya
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongodata2:/data/db
+
+volumes:
+  mongodata2:

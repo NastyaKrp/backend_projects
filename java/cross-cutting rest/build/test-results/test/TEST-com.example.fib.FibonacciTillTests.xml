@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.fib.FibonacciTillTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-16T15:17:54" hostname="NASTYA-LAPTOP" time="0.024">
+  <properties/>
+  <testcase name="testFactorialTillOfOne()" classname="com.example.fib.FibonacciTillTests" time="0.014"/>
+  <testcase name="testFibonacciTillOfPositiveNumbers10()" classname="com.example.fib.FibonacciTillTests" time="0.0"/>
+  <testcase name="testFibonacciTillOfPositiveNumbers5()" classname="com.example.fib.FibonacciTillTests" time="0.001"/>
+  <testcase name="testFactorialTillOfZero()" classname="com.example.fib.FibonacciTillTests" time="0.001"/>
+  <testcase name="testFibonacciTillOfNegativeNumbers()" classname="com.example.fib.FibonacciTillTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

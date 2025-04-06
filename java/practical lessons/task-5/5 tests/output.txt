@@ -1,0 +1,12 @@
+#FFFFFF - Right
+
+#FF3421 - Right
+
+#00ff00 - Right
+
+232323 - False
+
+f#fddee - False
+
+#fd2 - False
+
